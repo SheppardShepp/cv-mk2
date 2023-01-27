@@ -1,0 +1,143 @@
+html{
+    padding: 2% 10% 10% 8%;
+    display: flex;
+    justify-content: center;
+
+    body{
+        background-color: #ECEDED;
+        box-shadow: 6px 6px 6px black;
+        border: 2px solid #444;
+        padding: 5% 0 5% 5%;
+        max-width: 1280px;
+
+        main{
+            display: flex;
+            width: 100%;
+            font-family: "Montserrat";
+            color: rgb(63, 62, 62);
+        
+            .text{            
+                width: 80%;
+                margin: 5px 0 5px 30px;
+                font-size: 19px;
+                font-weight: 500;
+                span{
+                    font-weight: bold;
+                }
+            }
+        
+            .sectionLeft{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                width: 35%;
+        
+                &_photo{
+                    background-image: url(../../images/photo-cv.png);
+                    background-size: cover;
+                    border-radius: 50%;
+                    width: 400px;
+                    height: 400px;
+                    margin: 20px;
+                }
+                
+                &_data{
+                    width: 95%;
+                    background-color: rgba(146, 201, 157, 0.683);
+                    padding: 0  30px 30px 30px;
+        
+                    h2{
+                        font-size: 22px;
+                        margin: 30px 0 10px 0;
+                    }
+        
+                    .contact{
+                        display: flex;
+                        align-items: center;
+        
+                        .icone{
+                            margin: 0 10px 0 0;
+                        }
+        
+                        a{
+                            text-decoration: none;
+                            color: rgb(63, 62, 62);                
+                        }
+        
+                        p{
+                            margin: 5px 0;
+                        }
+                    }
+        
+                    &_title{
+                        text-align: center;
+        
+                        h1{                
+                            font-size: 41px;
+                            margin: 35px 0 0 0;
+                            font-weight: 600;
+                        }
+        
+                        p{
+                            font-weight: 500;
+                            font-size: 18px;
+                            margin: 0;
+                            letter-spacing: 8px;
+                        }
+                    }
+
+                    &_detail{
+                        margin: 75px 0;
+                    }
+                }
+            }
+        
+            .sectionRight{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                width: 65%;
+        
+                h3{
+                    text-align: center;
+                    padding: 10px 0;
+                    font-size: 22px;
+                    margin: 15px 0 0 0;
+                    width: 80%;
+                    background-color: rgba(146, 201, 157, 0.683);
+                }
+                h4{
+                    font-size: 19px;
+                    margin: 20px 0 0 0;
+                }
+        
+                &_project{
+                    width: 60%;
+                }
+                &_skills{            
+                    width: 60%;
+        
+                    .test{
+                        display: flex;
+                        ul{
+                            width: 50%;
+                            margin: 10px 0;
+                            li{
+                            font-weight: 500;
+                            font-size: 19px;
+                            }
+                        }
+                    }
+                }
+                &_experience{
+                    width: 60%;
+                }
+            }
+        
+        }
+    }
+}
+
+
+
+

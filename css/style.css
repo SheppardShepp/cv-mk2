@@ -1,0 +1,121 @@
+html {
+  padding: 2% 10% 10% 8%;
+  display: flex;
+  justify-content: center;
+}
+html body {
+  background-color: #ECEDED;
+  box-shadow: 6px 6px 6px black;
+  border: 2px solid #444;
+  padding: 5% 0 5% 5%;
+  max-width: 1280px;
+}
+html body main {
+  display: flex;
+  width: 100%;
+  font-family: "Montserrat";
+  color: rgb(63, 62, 62);
+}
+html body main .text {
+  width: 80%;
+  margin: 5px 0 5px 30px;
+  font-size: 19px;
+  font-weight: 500;
+}
+html body main .text span {
+  font-weight: bold;
+}
+html body main .sectionLeft {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 35%;
+}
+html body main .sectionLeft_photo {
+  background-image: url(../../images/photo-cv.png);
+  background-size: cover;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+}
+html body main .sectionLeft_data {
+  width: 95%;
+  background-color: rgba(146, 201, 157, 0.683);
+  padding: 0 30px 30px 30px;
+}
+html body main .sectionLeft_data h2 {
+  font-size: 22px;
+  margin: 30px 0 10px 0;
+}
+html body main .sectionLeft_data .contact {
+  display: flex;
+  align-items: center;
+}
+html body main .sectionLeft_data .contact .icone {
+  margin: 0 10px 0 0;
+}
+html body main .sectionLeft_data .contact a {
+  text-decoration: none;
+  color: rgb(63, 62, 62);
+}
+html body main .sectionLeft_data .contact p {
+  margin: 5px 0;
+}
+html body main .sectionLeft_data_title {
+  text-align: center;
+}
+html body main .sectionLeft_data_title h1 {
+  font-size: 41px;
+  margin: 35px 0 0 0;
+  font-weight: 600;
+}
+html body main .sectionLeft_data_title p {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+  letter-spacing: 8px;
+}
+html body main .sectionLeft_data_detail {
+  margin: 75px 0;
+}
+html body main .sectionRight {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 65%;
+}
+html body main .sectionRight h3 {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 22px;
+  margin: 15px 0 0 0;
+  width: 80%;
+  background-color: rgba(146, 201, 157, 0.683);
+}
+html body main .sectionRight h4 {
+  font-size: 19px;
+  margin: 20px 0 0 0;
+}
+html body main .sectionRight_project {
+  width: 60%;
+}
+html body main .sectionRight_skills {
+  width: 60%;
+}
+html body main .sectionRight_skills .test {
+  display: flex;
+}
+html body main .sectionRight_skills .test ul {
+  width: 50%;
+  margin: 10px 0;
+}
+html body main .sectionRight_skills .test ul li {
+  font-weight: 500;
+  font-size: 19px;
+}
+html body main .sectionRight_experience {
+  width: 60%;
+}
+
+/*# sourceMappingURL=style.css.map */
