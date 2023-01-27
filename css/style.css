@@ -32,7 +32,7 @@ html body main .sectionLeft {
   width: 35%;
 }
 html body main .sectionLeft_photo {
-  background-image: url(../../images/photo-cv.png);
+  background-image: url(../images/photo-cv.png);
   background-size: cover;
   border-radius: 50%;
   width: 400px;
