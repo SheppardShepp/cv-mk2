@@ -21,6 +21,7 @@ html{
                 margin: 5px 0 5px 30px;
                 font-size: 19px;
                 font-weight: 500;
+                
                 span{
                     font-weight: bold;
                 }
@@ -106,6 +107,7 @@ html{
                     width: 80%;
                     background-color: rgba(146, 201, 157, 0.683);
                 }
+
                 h4{
                     font-size: 19px;
                     margin: 20px 0 0 0;
@@ -114,11 +116,13 @@ html{
                 &_project{
                     width: 60%;
                 }
+
                 &_skills{            
                     width: 60%;
-        
-                    .test{
+
+                    &_list{
                         display: flex;
+
                         ul{
                             width: 50%;
                             margin: 10px 0;
@@ -127,17 +131,13 @@ html{
                             font-size: 19px;
                             }
                         }
-                    }
+                    }                    
                 }
+
                 &_experience{
                     width: 60%;
                 }
-            }
-        
+            }        
         }
     }
 }
-
-
-
-

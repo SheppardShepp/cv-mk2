@@ -103,14 +103,14 @@ html body main .sectionRight_project {
 html body main .sectionRight_skills {
   width: 60%;
 }
-html body main .sectionRight_skills .test {
+html body main .sectionRight_skills_list {
   display: flex;
 }
-html body main .sectionRight_skills .test ul {
+html body main .sectionRight_skills_list ul {
   width: 50%;
   margin: 10px 0;
 }
-html body main .sectionRight_skills .test ul li {
+html body main .sectionRight_skills_list ul li {
   font-weight: 500;
   font-size: 19px;
 }
